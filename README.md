@@ -52,10 +52,11 @@ The model highlights garbage (trash) as white, while keeping water, grass, walls
 ## Dataset Requirements
 - Input images (e.g., `new_x_` folder): RGB images of the scenes.
 - Labels (e.g., `new_y_` folder): Grayscale images with three classes:
-  - Class 0: Water (Red in ground truth)
+  - Class 0: Water (Black in ground truth)
   - Class 1: Garbage (Green in ground truth)
-  - Class 2: Background (Blue in ground truth)
+  - Class 2: Background (Red in ground truth)
 
 ## Example Output
-- Garbage (white), Water and Background (black).
-
+- Garbage (Green)
+- Water (Black)
+- Background (Red)
